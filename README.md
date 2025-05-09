@@ -8,8 +8,6 @@ A web-based application to detect tumors from medical images using AI. This tool
 - 🤖 Tumor detection using a trained deep learning model
 - 📊 Shows prediction results with confidence scores
 - 🧪 Tested on real datasets for accuracy and reliability
-- 📱 Mobile-friendly and responsive UI
-- 🔐 Secure handling of uploaded images (no permanent storage)
 
 ## 🛠️ Tech Stack
 
