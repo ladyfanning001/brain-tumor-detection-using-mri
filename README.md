@@ -1,33 +1,72 @@
-# Brain Tumor Detection System
+# 🧠 Tumor Detection Web App
 
-A deep learning-based brain tumor detection system using LeNet model architecture and Flask web interface.
+A web-based application to detect tumors from medical images using AI. This tool is designed to support early diagnosis and provide a simple interface for both healthcare professionals and researchers.
 
-![Brain Tumor Detection System](screenshot.png)
+## 🚀 Features
 
-## Description
+- 🖼️ Upload medical images (e.g., MRI, CT scan)
+- 🤖 Tumor detection using a trained deep learning model
+- 📊 Shows prediction results with confidence scores
+- 🧪 Tested on real datasets for accuracy and reliability
+- 📱 Mobile-friendly and responsive UI
+- 🔐 Secure handling of uploaded images (no permanent storage)
 
-This application allows users to upload brain MRI images and obtain predictions on whether the image shows the presence of a brain tumor. The system uses a deep learning model trained on a dataset of MRI images to provide accurate predictions.
+## 🛠️ Tech Stack
 
-## Features
+- **Frontend**: HTML, CSS, JavaScript (or React if applicable)
+- **Backend**: Python (Flask / FastAPI / Django)
+- **AI Model**: TensorFlow / Keras / PyTorch
+- **Deployment**: Heroku / Vercel / Render / Local server
 
-- Intuitive web interface for uploading MRI images
-- Automatic image preprocessing to ensure compatibility with the model
-- Binary classification (tumor/non-tumor) with confidence scores
-- Comprehensive logging for easy debugging and auditing
+## 📂 Project Structure
+tumor-detection-web/
+├── static/                 # CSS, JS, images
+├── templates/              # HTML templates
+├── Lenet_Model.h5                  # Saved AI model (.h5 / .pt)
+├── app.py                  # Flask or FastAPI backend
+├── requirements.txt        # Python dependencies
+└── README.md               # This file
+## 🧪 How to Run Locally
 
-## System Requirements
+1. **Clone the repository**
+git clone https://github.com/yourusername/tumor-detection-web.git
+cd tumor-detection-web
 
-- Python 3.8 or newer
-- TensorFlow 2.x
-- Flask
-- OpenCV
-- NumPy
-- Pillow (PIL)
-- Werkzeug
+2. **Create a virtual environment**
+python -m venv venv
+source venv/bin/activate   # On Windows: venv\Scripts\activate
 
-## Installation
+3. **Install dependencies**
+pip install -r requirements.txt
 
-1. Clone this repository:
-```bash
-git clone https://github.com/yourusername/brain-tumor-detection.git
-cd brain-tumor-detection
+4. **Run the app**
+python app.py
+
+Then open your browser and go to `http://localhost:5000`
+
+## 📸 Screenshot
+
+![screenshot](screenshot.png)
+
+## 🧠 AI Model
+
+The model used is a **LeNet Convolutional Neural Network (CNN)** trained on MRI brain images labeled with "tumor" and "no tumor" classes.  
+The trained model is saved as `model/lenet_model.h5`. You can replace this file with your own LeNet-based model if needed.
+
+## 🙋‍♀️ Author
+
+Created with ❤️ by [Ladya Kalascha](https://github.com/ladyfanning001)  
+For support or collaboration, feel free to reach out!
+
+## 📄 License
+
+This project is licensed under the MIT License.
+
+
+
+
+
+
+
+
+
