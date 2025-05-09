@@ -20,7 +20,7 @@ A web-based application to detect tumors from medical images using AI. This tool
 tumor-detection-web/
 ├── static/                 # CSS, JS, images
 ├── templates/              # HTML templates
-├── Lenet_Model.h5                  # Saved AI model (.h5 / .pt)
+├── Lenet_Model.h5          # Saved AI model (.h5 / .pt)
 ├── app.py                  # Flask or FastAPI backend
 ├── requirements.txt        # Python dependencies
 └── README.md               # This file
@@ -49,7 +49,7 @@ Then open your browser and go to `http://localhost:5000`
 ## 🧠 AI Model
 
 The model used is a **LeNet Convolutional Neural Network (CNN)** trained on MRI brain images labeled with "tumor" and "no tumor" classes.  
-The trained model is saved as `model/lenet_model.h5`. You can replace this file with your own LeNet-based model if needed.
+The trained model is saved as `Lenet_Model.h5`. You can replace this file with your own LeNet-based model if needed.
 
 ## 🙋‍♀️ Author
 
